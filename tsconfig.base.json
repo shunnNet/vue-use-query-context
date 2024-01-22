@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@browser-ai/ai-expression": [
+        "./packages/ai-expression/src/index.ts"
+      ],
+      "@browser-ai/bai": [
+        "./packages/bai/src/index.ts"
+      ],
+      "@browser-ai/vai": [
+        "./packages/vai/src/index.ts"
+      ],
+      // "@browser-ai/unplugin-ai-elements": [
+      //   "./packages/unplugin-ai-elements/src/index.ts"
+      // ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+}
